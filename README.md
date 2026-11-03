@@ -69,7 +69,7 @@ El servidor iniciará por defecto en `http://localhost:5000`.
 
 | Método | Endpoint | Acceso | Descripción | Body (JSON) |
 |---|---|---|---|---|
-| `POST` | `/api/users/register` | Público | Registra un nuevo usuario | `{"nombre": "...", "email": "...", "password": "..."}` |
+| `POST` | `/api/users` o `/api/users/register` | Público | Registra un nuevo usuario | `{"nombre": "...", "email": "...", "password": "..."}` |
 | `POST` | `/api/users/login` | Público | Inicia sesión y retorna token JWT | `{"email": "...", "password": "..."}` |
 | `GET` | `/api/users/datos` | Privado | Obtiene la información del usuario en sesión | *Ninguno* |
 
